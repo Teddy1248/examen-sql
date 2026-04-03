@@ -18,6 +18,6 @@
 18 - SELECT * FROM orders WHERE amount > 100; 
 19 - SELECT name FROM client WHERE client_id = orders.client_id; 
 20 - SELECT * FROM orders WHERE client_id; 
-21 - Je ne sais pas. Je pense qu on additionne le montant de toutes les commandes. 
-22 - Je ne sais pas. Je pense qu on utilise le mot clé AVERAGE ( ). Je pense qu on additionne le montant de toutes les commandes et qu on divise ce montant par le nombre de commandes. 
-23 - Je ne sais pas 
+21 - Je ne sais pas. Je pense qu on additionne le montant de toutes les commandes. Il faut faire une reqête de jointure avec la table clients et la table orders. 
+22 - Je ne sais pas. Je pense qu on utilise le mot clé AVERAGE ( ). Je pense qu on additionne le montant de toutes les commandes et qu on divise ce montant par le nombre de commandes. Il faut faire une requête de jointure comme précédement.   
+23 - Je ne sais pas. Il faut faire une requête de jointure comme précédement. 
